@@ -1,0 +1,38 @@
+name: ufs
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/png/
+    - assets/png/Logo 2@2x.png
+    - assets/png/TWIN-CAPSULE 1.png
+
+#  fonts:
+#    - family: Rajdhani
+#      fonts:
+#        - asset: assets/fonts/Rajdhani-Regular.ttf
+#        - asset: assets/fonts/Rajdhani-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/Rajdhani-Italic.ttf
+#          style: italic
